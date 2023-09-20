@@ -16,7 +16,7 @@
     "PM2",
     "Build"
   ],
-  "author": "\"PostgreSQL\",",
+  "author": "SumitKumar",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",

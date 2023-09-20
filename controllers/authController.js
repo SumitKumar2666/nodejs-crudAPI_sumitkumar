@@ -1,4 +1,4 @@
-// Controller
+
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
@@ -20,7 +20,7 @@ const authController = {
         }
   
         const payload = { sub: user.id };
-        const token = jwt.sign(payload, jwtOptions.secretOrKey, { expiresIn: '2m' }); //change for token expiry time
+        const token = jwt.sign(payload, jwtOptions.secretOrKey, { expiresIn: '2m' }); //change token expiry time
   
         return res.json({ message: 'Authentication successful', token });
       } catch (error) {

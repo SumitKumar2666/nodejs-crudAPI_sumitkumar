@@ -16,7 +16,7 @@ module.exports = (req, res, next) => {
       return res.status(401).json({ message: 'Unauthorized: Invalid token' });
     }
 
-    // If the token is valid, you can access the user's information in decoded
+    // If the token is valid, access the user's information in decoded
     req.user = decoded;
     next();
   });

@@ -1,6 +1,6 @@
 {
   "name": "nodejs_sumitkumar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJs project with authentication, CRUD API using Sequelize PostgreSQL, running on PM2, and built version.",
   "main": "app.js",
   "scripts": {

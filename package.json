@@ -1,0 +1,33 @@
+{
+  "name": "nodejs_sumitkumar",
+  "version": "1.0.0",
+  "description": "NodeJs project with authentication, CRUD API using Sequelize PostgreSQL, running on PM2, and built version.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start ecosystem.config.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "Authentication",
+    "CRUD",
+    "Sequelize",
+    "PostgreSQL",
+    "PM2",
+    "Build"
+  ],
+  "author": "\"PostgreSQL\",",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "pm2": "^5.3.0",
+    "sequelize": "^6.33.0"
+  }
+}
